@@ -27,10 +27,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Most XML tools aim to parse some simple XML and to produce some
-formatted output.  XML::Filter::Digest aims to do the opposite.
+formatted output. XML::Filter::Digest aims to do the opposite.
 
-Many formats can now be parsed by a SAX Driver.  XPath offers a smart
-way to write queries to XML.  XML::Filter::Digest is a PerlSAX Filter
+Many formats can now be parsed by a SAX Driver. XPath offers a smart
+way to write queries to XML. XML::Filter::Digest is a PerlSAX Filter
 to query XML and to provide a simpler digest as a result.
 
 XML::Filter::Digest uses its own script language that can be parsed by
