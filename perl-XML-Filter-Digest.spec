@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-Digest
+%define		pdir	XML
+%define		pnam	Filter-Digest
 Summary:	XML::Filter::Digest - parse formatted output and produce XML
 Summary(pl):	XML::Filter::Digest - analiza sformatowanego wyj¶cia i tworzenia XML-a
 Name:		perl-XML-Filter-Digest
