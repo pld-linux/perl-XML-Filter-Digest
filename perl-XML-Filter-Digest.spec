@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Filter-Digest
-Summary:	XML::Filter::Digest -- parse formatted output and produce XML
-#Summary(pl):	
+Summary:	XML::Filter::Digest - parse formatted output and produce XML
+Summary(pl):	XML::Filter::Digest - analiza sformatowanego wyj¶cia i tworzenia XML-a
 Name:		perl-XML-Filter-Digest
 Version:	0.06
 Release:	1
@@ -26,8 +26,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Most XML tools aim to parse some simple XML and to produce some formatted
-output.  XML::Filter::Digest aims to do the opposite.
+Most XML tools aim to parse some simple XML and to produce some
+formatted output.  XML::Filter::Digest aims to do the opposite.
 
 Many formats can now be parsed by a SAX Driver.  XPath offers a smart
 way to write queries to XML.  XML::Filter::Digest is a PerlSAX Filter
