@@ -36,8 +36,19 @@ to query XML and to provide a simpler digest as a result.
 XML::Filter::Digest uses its own script language that can be parsed by
 XML::Script::Digest to formulate these digest queries.
 
-# %description -l pl
-# TODO
+%description -l pl
+Celem wiêkszo¶ci narzêdzi do XML-a jest analiza jakiego¶ prostego
+XML-a i stworzenie jakiego¶ sformatowanego wyj¶cia. Cel
+XML::Filter::Digest jest co¶ przeciwnego.
+
+Teraz sterownik SAX mo¿e przetwarzaæ wiele formatów. XPath oferuje
+elegancki sposób pisania zapytañ dla XML-a. XML::Filter::Digest to
+filtr PerlSAX do odpytywania XML-a i dostarczania w wyniku prostego
+podsumowania.
+
+XML::Filter::Digest u¿ywa w³asnego jêzyka skryptowego, który mo¿e byæ
+przetwarzany przez XML::Script::Digest aby sformu³owaæ te zapytania
+podsumowuj±ce.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -61,6 +72,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%{perl_vendorlib}/%{pdir}/*/*.pm
+%{perl_vendorlib}/XML/*/*.pm
 %{_mandir}/man3/*
 %{_mandir}/man1/*
