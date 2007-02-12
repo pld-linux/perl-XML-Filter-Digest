@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Digest
 Summary:	XML::Filter::Digest - parse formatted output and produce XML
-Summary(pl):	XML::Filter::Digest - analiza sformatowanego wyj¶cia i tworzenia XML-a
+Summary(pl.UTF-8):   XML::Filter::Digest - analiza sformatowanego wyjÅ›cia i tworzenia XML-a
 Name:		perl-XML-Filter-Digest
 Version:	0.06
 Release:	1
@@ -36,19 +36,19 @@ to query XML and to provide a simpler digest as a result.
 XML::Filter::Digest uses its own script language that can be parsed by
 XML::Script::Digest to formulate these digest queries.
 
-%description -l pl
-Celem wiêkszo¶ci narzêdzi do XML-a jest analiza jakiego¶ prostego
-XML-a i stworzenie jakiego¶ sformatowanego wyj¶cia. Cel
-XML::Filter::Digest jest co¶ przeciwnego.
+%description -l pl.UTF-8
+Celem wiÄ™kszoÅ›ci narzÄ™dzi do XML-a jest analiza jakiegoÅ› prostego
+XML-a i stworzenie jakiegoÅ› sformatowanego wyjÅ›cia. Cel
+XML::Filter::Digest jest coÅ› przeciwnego.
 
-Teraz sterownik SAX mo¿e przetwarzaæ wiele formatów. XPath oferuje
-elegancki sposób pisania zapytañ dla XML-a. XML::Filter::Digest to
+Teraz sterownik SAX moÅ¼e przetwarzaÄ‡ wiele formatÃ³w. XPath oferuje
+elegancki sposÃ³b pisania zapytaÅ„ dla XML-a. XML::Filter::Digest to
 filtr PerlSAX do odpytywania XML-a i dostarczania w wyniku prostego
 podsumowania.
 
-XML::Filter::Digest u¿ywa w³asnego jêzyka skryptowego, który mo¿e byæ
-przetwarzany przez XML::Script::Digest aby sformu³owaæ te zapytania
-podsumowuj±ce.
+XML::Filter::Digest uÅ¼ywa wÅ‚asnego jÄ™zyka skryptowego, ktÃ³ry moÅ¼e byÄ‡
+przetwarzany przez XML::Script::Digest aby sformuÅ‚owaÄ‡ te zapytania
+podsumowujÄ…ce.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
