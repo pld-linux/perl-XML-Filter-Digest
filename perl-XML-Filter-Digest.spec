@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Digest
 Summary:	XML::Filter::Digest - parse formatted output and produce XML
-Summary(pl.UTF-8):   XML::Filter::Digest - analiza sformatowanego wyjścia i tworzenia XML-a
+Summary(pl.UTF-8):	XML::Filter::Digest - analiza sformatowanego wyjścia i tworzenia XML-a
 Name:		perl-XML-Filter-Digest
 Version:	0.06
 Release:	1
