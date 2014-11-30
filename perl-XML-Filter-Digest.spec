@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-Digest
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Digest - parse formatted output and produce XML
 Summary(pl.UTF-8):	XML::Filter::Digest - analiza sformatowanego wyjścia i tworzenia XML-a
 Name:		perl-XML-Filter-Digest
@@ -14,12 +14,13 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1a8ed951ec85851ad483f794f68ca54e
+URL:		http://search.cpan.org/dist/XML-Filter-Digest/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl(XML::Parser::PerlSAX) >= 0.06
 BuildRequires:	perl-Digest-MD5 >= 2.09
 BuildRequires:	perl-XML-Handler-YAWriter >= 0.1
-BuildRequires:	perl(XML::Parser::PerlSAX) >= 0.06
 BuildRequires:	perl-XML-XPath >= 0.51
 %endif
 BuildArch:	noarch
